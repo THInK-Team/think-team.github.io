@@ -1,6 +1,7 @@
 ---
 title: Best Poster Award!
 blurb: Our paper receives the Best Poster Award at 2026 36th Great Lakes Symposium on VLSI (GLSVLSI).
+slug: arvin-glsvlsi-best-poster
 date: '2026-06-22'
 members: ['arvin-delavari', 'amirtha-chandrasekaran', 'boris-vaisband']
 projects: []

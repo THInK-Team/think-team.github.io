@@ -18,5 +18,3 @@ start: 2026
 end:
 ---
 Alyssa Zeynep Akcil, is a PhD student in the Department of Electrical Engineering and Computer Science at UC Irvine.
- 
-The goal of First's research is to... TODO

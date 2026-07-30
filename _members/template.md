@@ -10,6 +10,7 @@ role: phd # postdoc, phd, ms-students, undergraduate
 
 services:
   #home: https://xxx.com
+  #email: email@uci.edu
   #github: https://github.com/xxx
   #scholar: https://scholar.google.com/xxx
   #linked-in: https://www.linkedin.com/in/xxx

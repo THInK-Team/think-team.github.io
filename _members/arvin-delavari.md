@@ -10,6 +10,7 @@ role: phd # postdoc, phd, ms-students, undergraduate
 
 services:
   #home: https://member-website.com
+  email: delavari@uci.edu
   github: https://github.com/ArvinDelavari
   scholar: https://scholar.google.com/citations?user=vxLkCEgAAAAJ&hl=en
   linked-in: https://www.linkedin.com/in/arvin-delavari

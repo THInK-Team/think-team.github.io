@@ -23,6 +23,11 @@ layout: page
         &nbsp;
       {% endfor %}
     </div>
+    
+    {% if page.email %}
+      <h2 id="email">Email</h2>
+      <p><a href="mailto:{{ page.email }}">{{ page.email }}</a></p>
+    {% endif %}
 
       <!-- BEGIN Projects -->
       {% comment %}

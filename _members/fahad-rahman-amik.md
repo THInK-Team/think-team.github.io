@@ -10,6 +10,7 @@ role: phd # postdoc, phd, ms-students, undergraduate
 
 services:
   #home: https://member-website.com
+  email: fahad.amik@mila.quebec
   #github: https://github.com/
   #scholar: https://scholar.com/
   linked-in: https://www.linkedin.com/in/fahadrahmanamik/

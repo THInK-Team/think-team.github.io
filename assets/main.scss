@@ -30,6 +30,9 @@ $image-path: 'uswds/img';
   height: auto;
   display: block; 
 }
+.site-logo svg {
+  transform: translateX(-7%);
+}
 
 .site-logo svg,
 .site-logo img {

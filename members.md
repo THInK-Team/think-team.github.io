@@ -77,7 +77,7 @@ subnav:
         {% endif %}
       </div>
       <p class="alumni-meta">{{ alum.job_title }} &middot; ({{ alum.start | slice: 0, 4 }}&ndash;{{ alum.end | slice: 0, 4 }})</p>
-      {% if alum.next_position %}<p class="alumni-now">Next employment after THInK Team: {{ alum.next_position }}</p>{% endif %}
+      {% if alum.next_position %}<p class="alumni-now">After THInK Team: {{ alum.next_position }}</p>{% endif %}
     </div>
   </li>
 {% endfor %}

@@ -5,7 +5,7 @@ name_degree: Rezvan Mohammadrezaee
 photo: rezvan-mohammadrezaee.png # this file is relative to `assets/img/members/fullsize`
 alt: A woman smiling in front of a grey background. # the alt text that describes this photo for screen reader users. Mandatory if you use a photo.
 
-job_title: PhD Student
+job_title: PhD Candidate
 role: phd # postdoc, phd, ms-students, undergraduate
 
 services:

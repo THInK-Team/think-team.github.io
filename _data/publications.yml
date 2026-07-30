@@ -11,7 +11,7 @@
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://www.hajim.rochester.edu/ece/sites/friedman/papers/EDSWNY_13_Thermal.pdf'
   note: null
 - category: conference
   year: 2014
@@ -23,7 +23,7 @@
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://ieeexplore.ieee.org/document/6865205'
   note: null
 - category: conference
   year: 2015
@@ -35,7 +35,7 @@
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://ieeexplore.ieee.org/document/7169101/'
   note: null
 - category: journal
   year: 2015
@@ -47,7 +47,7 @@
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://ieeexplore.ieee.org/document/6942204/'
   note: null
 - category: conference
   year: 2016
@@ -59,7 +59,7 @@
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://hajim.rochester.edu/ece/sites/friedman/papers/ISCAS_16_3Dlayer.pdf'
   note: null
 - category: journal
   year: 2016
@@ -71,7 +71,7 @@
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://ieeexplore.ieee.org/document/7434057'
   note: null
 - category: journal
   year: 2017
@@ -83,7 +83,7 @@
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://ieeexplore.ieee.org/document/7448908'
   note: null
 - category: book_chapter
   year: 2017
@@ -118,20 +118,6 @@
 - category: conference
   year: 2017
   sort_date: '2017-03-01'
-  title: 3-D ICs as a Platform for IoT Devices
-  authors: B. Vaisband and E. G. Friedman
-  venue: >-
-    Proceedings of the Government Microcircuit Applications & Critical Technology Conference
-    (GOMACTech)
-  details: March
-  doi: null
-  pdf: null
-  code: null
-  link: null
-  note: null
-- category: conference
-  year: 2017
-  sort_date: '2017-03-01'
   title: Noise Coupling in TSV-Based Heterogeneous 3-D ICs
   authors: B. Vaisband and E. G. Friedman
   venue: >-
@@ -141,7 +127,21 @@
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://hajim.rochester.edu/ece/sites/friedman/papers/GOMAC_17_Noise.pdf'
+  note: null
+- category: conference
+  year: 2017
+  sort_date: '2017-03-01'
+  title: 3-D ICs as a Platform for IoT Devices
+  authors: B. Vaisband and E. G. Friedman
+  venue: >-
+    Proceedings of the Government Microcircuit Applications & Critical Technology Conference
+    (GOMACTech)
+  details: March
+  doi: null
+  pdf: null
+  code: null
+  link: 'https://hajim.rochester.edu/ece/sites/friedman/papers/GOMAC_17_IoT.pdf'
   note: null
 - category: conference
   year: 2017
@@ -153,7 +153,7 @@
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://ieeexplore.ieee.org/document/8050943/'
   note: null
 - category: conference
   year: 2017
@@ -167,7 +167,7 @@
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://ieeexplore.ieee.org/document/8329708'
   note: null
 - category: conference
   year: 2018
@@ -179,19 +179,7 @@
   doi: null
   pdf: null
   code: null
-  link: null
-  note: null
-- category: conference
-  year: 2018
-  sort_date: '2018-05-01'
-  title: Demonstration of a Heterogeneously Integrated System-on-Wafer (SoW) Assembly
-  authors: 'A. Bajwa, S. Jangam, S. Pal, B. Vaisband, R. Irwin, M. Goorsky, and S. S. Iyer'
-  venue: Proceedings of the IEEE Electronic Components and Technology Conference (ECTC)
-  details: 'pp. 1926‑1930, May'
-  doi: null
-  pdf: null
-  code: null
-  link: null
+  link: 'https://ieeexplore.ieee.org/document/8357278'
   note: null
 - category: journal
   year: 2018
@@ -203,7 +191,19 @@
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://ieeexplore.ieee.org/document/8327851/'
+  note: null
+- category: conference
+  year: 2018
+  sort_date: '2018-05-01'
+  title: Demonstration of a Heterogeneously Integrated System-on-Wafer (SoW) Assembly
+  authors: 'A. Bajwa, S. Jangam, S. Pal, B. Vaisband, R. Irwin, M. Goorsky, and S. S. Iyer'
+  venue: Proceedings of the IEEE Electronic Components and Technology Conference (ECTC)
+  details: 'pp. 1926‑1930, May'
+  doi: null
+  pdf: null
+  code: null
+  link: 'https://ieeexplore.ieee.org/document/8429801/'
   note: null
 - category: journal
   year: 2018
@@ -215,7 +215,7 @@
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://www.hajim.rochester.edu/ece/sites/friedman/papers/FCCG_18.pdf'
   note: null
 - category: conference
   year: 2019
@@ -241,7 +241,7 @@
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://ieeexplore.ieee.org/document/8720516/'
   note: null
 - category: journal
   year: 2019
@@ -255,45 +255,19 @@
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://ieeexplore.ieee.org/document/8661669'
   note: null
 - category: conference
   year: 2019
   sort_date: '2019-05-01'
-  title: Dynamic Thermal Management of Silicon Interconnect Fabric using Flash Cooling
-  authors: 'U. Shah, U. Mogera, P. Ambore, B. Vaisband, S. S. Iyer, and T. S. Fisher'
-  venue: >-
-    Proceedings of the IEEE Intersociety Conference on Thermal and Thermomechanical Phenomena in
-    Electronic Systems (ITHERM)
-  details: 'pp. 1228-1233, May'
-  doi: null
-  pdf: null
-  code: null
-  link: null
-  note: null
-- category: conference
-  year: 2019
-  sort_date: '2019-05-01'
-  title: On-Chip ESD Monitor
-  authors: 'K. K. Thankappan, B. Vaisband, and S. S. Iyer'
+  title: Process Development of Power Delivery Through Wafer Vias for Silicon Interconnect Fabric
+  authors: 'M.-H. Liu, B. Vaisband, A. Hanna, Y. Luo, Z. Wan, and S. S. Iyer'
   venue: Proceedings of the IEEE Electronic Components and Technology Conference (ECTC)
-  details: 'pp. 2225‑2233, May'
+  details: 'pp. 579-586, May'
   doi: null
   pdf: null
   code: null
-  link: null
-  note: null
-- category: conference
-  year: 2019
-  sort_date: '2019-05-01'
-  title: Integration and Characterization of InP Dies on Silicon Interconnect Fabric
-  authors: 'E. Sorensen, B. Vaisband, S. Jangam, T. Shirley, and S. S. Iyer'
-  venue: Proceedings of the IEEE Electronic Components and Technology Conference (ECTC)
-  details: 'pp. 543-549, May'
-  doi: null
-  pdf: null
-  code: null
-  link: null
+  link: 'https://ieeexplore.ieee.org/document/8811403'
   note: null
 - category: conference
   year: 2019
@@ -307,19 +281,45 @@
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://ieeexplore.ieee.org/document/8811422/'
   note: null
 - category: conference
   year: 2019
   sort_date: '2019-05-01'
-  title: Process Development of Power Delivery Through Wafer Vias for Silicon Interconnect Fabric
-  authors: 'M.-H. Liu, B. Vaisband, A. Hanna, Y. Luo, Z. Wan, and S. S. Iyer'
+  title: On-Chip ESD Monitor
+  authors: 'K. K. Thankappan, B. Vaisband, and S. S. Iyer'
   venue: Proceedings of the IEEE Electronic Components and Technology Conference (ECTC)
-  details: 'pp. 579-586, May'
+  details: 'pp. 2225‑2233, May'
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://ieeexplore.ieee.org/document/8811407'
+  note: null
+- category: conference
+  year: 2019
+  sort_date: '2019-05-01'
+  title: Integration and Characterization of InP Dies on Silicon Interconnect Fabric
+  authors: 'E. Sorensen, B. Vaisband, S. Jangam, T. Shirley, and S. S. Iyer'
+  venue: Proceedings of the IEEE Electronic Components and Technology Conference (ECTC)
+  details: 'pp. 543-549, May'
+  doi: null
+  pdf: null
+  code: null
+  link: 'https://ieeexplore.ieee.org/document/8811388'
+  note: null
+- category: conference
+  year: 2019
+  sort_date: '2019-05-01'
+  title: Dynamic Thermal Management of Silicon Interconnect Fabric using Flash Cooling
+  authors: 'U. Shah, U. Mogera, P. Ambore, B. Vaisband, S. S. Iyer, and T. S. Fisher'
+  venue: >-
+    Proceedings of the IEEE Intersociety Conference on Thermal and Thermomechanical Phenomena in
+    Electronic Systems (ITHERM)
+  details: 'pp. 1228-1233, May'
+  doi: null
+  pdf: null
+  code: null
+  link: 'https://ieeexplore.ieee.org/document/8757286/'
   note: null
 - category: patent
   year: 2019
@@ -343,7 +343,7 @@
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://ieeexplore.ieee.org/document/8771326/'
   note: null
 - category: conference
   year: 2019
@@ -355,7 +355,7 @@
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://dl.acm.org/doi/10.1145/3313231.3352379'
   note: null
 - category: journal
   year: 2019
@@ -363,11 +363,11 @@
   title: 'Silicon Interconnect Fabric: A Versatile Heterogeneous Integration Platform for AI Systems'
   authors: 'S. S. Iyer, S. Jangam, and B. Vaisband'
   venue: IBM Journal of Research and Development
-  details: 'Vol. 63, No. 6, pp. 5:1-5:16, November/December'
+  details: 'Vol. 63, No. 6, pp. 5:1-5:16, November'
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://ieeexplore.ieee.org/document/8827922'
   note: null
 - category: journal
   year: 2020
@@ -379,7 +379,7 @@
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://www.hajim.rochester.edu/ece/sites/friedman/papers/TCPMT_20.pdf'
   note: null
 - category: journal
   year: 2020
@@ -393,7 +393,7 @@
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://ieeexplore.ieee.org/abstract/document/8832173'
   note: null
 - category: conference
   year: 2020
@@ -405,7 +405,7 @@
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://ieeexplore.ieee.org/document/9181009'
   note: null
 - category: conference
   year: 2021
@@ -417,7 +417,7 @@
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://ieeexplore.ieee.org/document/9401673'
   note: null
 - category: book_chapter
   year: 2022
@@ -439,7 +439,7 @@
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://onlinelibrary.wiley.com/doi/abs/10.1002/047134608X.W8433'
   note: null
 - category: patent
   year: 2022
@@ -461,19 +461,7 @@
   doi: null
   pdf: null
   code: null
-  link: null
-  note: null
-- category: conference
-  year: 2022
-  sort_date: '2022-06-01'
-  title: Power Delivery for Ultra-Large-Scale Applications on Si-IF
-  authors: 'Y. Safari, A. Kroon, and B. Vaisband'
-  venue: Proceedings of the IEEE International Symposium on Circuits and Systems (ISCAS)
-  details: 'pp. 1605-1609, June'
-  doi: null
-  pdf: null
-  code: null
-  link: null
+  link: 'https://ieeexplore.ieee.org/document/9806286'
   note: null
 - category: conference
   year: 2022
@@ -487,7 +475,19 @@
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://ieeexplore.ieee.org/document/9816664'
+  note: null
+- category: conference
+  year: 2022
+  sort_date: '2022-06-01'
+  title: Power Delivery for Ultra-Large-Scale Applications on Si-IF
+  authors: 'Y. Safari, A. Kroon, and B. Vaisband'
+  venue: Proceedings of the IEEE International Symposium on Circuits and Systems (ISCAS)
+  details: 'pp. 1605-1609, June'
+  doi: null
+  pdf: null
+  code: null
+  link: 'https://ieeexplore.ieee.org/document/9937455/'
   note: null
 - category: journal
   year: 2022
@@ -499,7 +499,7 @@
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://ieeexplore.ieee.org/document/9780390'
   note: null
 - category: journal
   year: 2022
@@ -513,7 +513,7 @@
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://ieeexplore.ieee.org/document/9968246/'
   note: null
 - category: journal
   year: 2023
@@ -525,7 +525,7 @@
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://ieeexplore.ieee.org/document/9930792/'
   note: null
 - category: journal
   year: 2023
@@ -537,7 +537,7 @@
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://ieeexplore.ieee.org/document/10043852'
   note: JETCAS Spotlight Paper.
 - category: conference
   year: 2023
@@ -549,7 +549,7 @@
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://ieeexplore.ieee.org/document/10195756'
   note: null
 - category: conference
   year: 2023
@@ -557,11 +557,11 @@
   title: Statistical Weight Refresh System for CTT-Based Synaptic Arrays
   authors: 'S. Dayo, A. Saeed Monir, M. Karimi, and B. Vaisband'
   venue: Proceedings of the ACM/IEEE Great Lakes Symposium on VLSI (GLSVLSI)
-  details: 'Late Breaking Results, pp. 213-214, June'
+  details: 'pp. 213-214, June'
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://dl.acm.org/doi/10.1145/3583781.3590325'
   note: Best Poster Award.
 - category: conference
   year: 2023
@@ -573,7 +573,7 @@
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://dl.acm.org/doi/10.1145/3583781.3590230'
   note: null
 - category: conference
   year: 2023
@@ -585,7 +585,7 @@
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://ieeexplore.ieee.org/abstract/document/10247738'
   note: null
 - category: conference
   year: 2023
@@ -597,7 +597,7 @@
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://ieeexplore.ieee.org/document/10256905/'
   note: null
 - category: conference
   year: 2024
@@ -609,7 +609,7 @@
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://ieeexplore.ieee.org/document/10565187/'
   note: null
 - category: conference
   year: 2024
@@ -621,7 +621,7 @@
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://dl.acm.org/doi/10.1145/3649476.3658726'
   note: null
 - category: conference
   year: 2024
@@ -635,7 +635,7 @@
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://ieeexplore.ieee.org/document/10712060/'
   note: null
 - category: patent
   year: 2024
@@ -657,7 +657,7 @@
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://dl.acm.org/doi/10.1145/3658617.3697742'
   note: null
 - category: conference
   year: 2025
@@ -687,19 +687,7 @@
   doi: null
   pdf: null
   code: null
-  link: null
-  note: null
-- category: conference
-  year: 2025
-  sort_date: '2025-05-01'
-  title: Integrated Passive Devices in the Silicon-Interconnect Fabric
-  authors: 'H. Ren, Z. Chen, J.-H. Liu, C.-T. Yang, B. Yang, B. Vaisband, and S. S. Iyer'
-  venue: Proceedings of the IEEE Electronic Components and Technology Conference (ECTC)
-  details: 'pp. 1994-1998, May'
-  doi: null
-  pdf: null
-  code: null
-  link: null
+  link: 'https://ieeexplore.ieee.org/document/11014347/'
   note: null
 - category: conference
   year: 2025
@@ -711,7 +699,7 @@
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://ieeexplore.ieee.org/document/11037954'
   note: null
 - category: conference
   year: 2025
@@ -723,7 +711,19 @@
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://ieeexplore.ieee.org/document/11038033'
+  note: null
+- category: conference
+  year: 2025
+  sort_date: '2025-05-01'
+  title: Integrated Passive Devices in the Silicon-Interconnect Fabric
+  authors: 'H. Ren, Z. Chen, J.-H. Liu, C.-T. Yang, B. Yang, B. Vaisband, and S. S. Iyer'
+  venue: Proceedings of the IEEE Electronic Components and Technology Conference (ECTC)
+  details: 'pp. 1994-1998, May'
+  doi: null
+  pdf: null
+  code: null
+  link: 'https://ieeexplore.ieee.org/document/11038353'
   note: null
 - category: journal
   year: 2025
@@ -735,7 +735,7 @@
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://ieeexplore.ieee.org/document/10922775'
   note: Best of TVLSI Paper.
 - category: conference
   year: 2025
@@ -751,7 +751,7 @@
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://ieeexplore.ieee.org/document/11074799'
   note: null
 - category: journal
   year: 2025
@@ -763,7 +763,7 @@
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://ieeexplore.ieee.org/document/11088081'
   note: JETCAS Spotlight Paper.
 - category: journal
   year: 2026
@@ -775,7 +775,7 @@
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://ieeexplore.ieee.org/abstract/document/11421703'
   note: null
 - category: journal
   year: 2026
@@ -787,7 +787,7 @@
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://ieeexplore.ieee.org/document/11400568'
   note: null
 - category: journal
   year: 2026
@@ -799,7 +799,7 @@
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://ieeexplore.ieee.org/document/11505831'
   note: null
 - category: conference
   year: 2026
@@ -811,5 +811,5 @@
   doi: null
   pdf: null
   code: null
-  link: null
+  link: 'https://dl.acm.org/doi/10.1145/3787109.3815249'
   note: Best Poster Award.

@@ -10,12 +10,11 @@ role: phd # postdoc, phd, ms-students, undergraduate
 
 services:
   #home: https://member-website.com
-  email: zakcil@uci.edu
   github: https://github.com/zeynepakcil
   #scholar: https://scholar.com/
   linked-in: https://www.linkedin.com/in/zeynepakcil
 
-  
+email: zakcil@uci.edu  
 start: 2026
 end:
 ---

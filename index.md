@@ -10,7 +10,7 @@ hero:
 title: Home 
 description: "THInK Team at UC Irvine researches chiplet design, heterogeneous integration, and fine-pitch interconnect platforms for AI and high-performance computing systems."
 
-tagline: "<span class='tagline-accent'>T</span>he<br><span class='tagline-accent'>H</span>eterogeneous<br><span class='tagline-accent'>I</span>ntegration<br><span class='tagline-accent'>Kn</span>owledge<br><span class='tagline-accent'>Team</span>."
+tagline: "<span class='tagline-accent'>T</span>he<br><span class='tagline-accent'>H</span>eterogeneous<br><span class='tagline-accent'>In</span>tegration<br><span class='tagline-accent'>K</span>nowledge<br><span class='tagline-accent'>Team</span>."
 intro: |
   At THInK Team, we focus on enabling heterogeneous integration of systems. We deep dive into advanced packaging fine-pitch integration platforms and generate architectures, design methodologies, circuits, and EDA tools to increase system performance, reduce energy footprint, and enable novel applications. 
 

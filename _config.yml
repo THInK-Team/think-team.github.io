@@ -101,3 +101,6 @@ defaults:
       type: teams
     values:
       layout: team
+
+webmaster_verifications:
+  google: "atHvbogrrI_sF55UISRKxj5oZ5tzPotkG2qukyYKbT0"

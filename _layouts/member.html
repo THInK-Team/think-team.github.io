@@ -91,12 +91,14 @@ layout: page
     
     {{ content }}
 
-{% capture news_list %}
-      {% for news in site.news %}
+{% assign latest_news = site.news | reverse %}
+    {% capture news_list %}
+      {% for news in latest_news %}
         {% for member in news.members %}
           {% if member == id %}
             <div class="news-box-item">
               <h3><a href="{{ news.url | relative_url }}">{{ news.title }}</a></h3>
+              <p><b>{{ news.date | date: "%B %Y" }}</b></p>
             </div>
           {% endif %}
         {% endfor %}
@@ -109,6 +111,7 @@ layout: page
         {{ news_list }}
       </div>
     {% endif %}
+    
     
     {% capture media_list %}
       {% for media in site.data.media %}

@@ -27,7 +27,7 @@ description: "News from THInK Team at UC Irvine about chiplet design, heterogene
 
           <h3>{{ news.title }}</h3>
           <p>
-            <b>{{ news.date | date: "%-d %B %Y" }}</b> |
+            <b>{{ news.date | date: "%B %Y" }}</b> |
             {{ news.blurb }} <a href="{{ news.url | relative_url }}">Click for details.</a>
           </p>
 

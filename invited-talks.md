@@ -2,6 +2,8 @@
 layout: home
 title: Invited Talks
 permalink: /invited-talks/
+description: "Talks given by Boris Vaisband about chiplet design, heterogeneous integration, and fine-pitch interconnect platforms for AI and high-performance computing systems."
+
 ---
 
 # Invited Talks

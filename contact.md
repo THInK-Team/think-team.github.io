@@ -4,6 +4,7 @@ permalink: /contact/
 title: Contact Us
 hero:
   image: /assets/img/site/hero_image.jpeg
+description: "Reach out to Boris Vaisband or THInK Team at UC Irvine to contribute research on chiplet design, heterogeneous integration, and fine-pitch interconnect platforms for AI and high-performance computing systems."
 ---
 
 # {{page.title}}

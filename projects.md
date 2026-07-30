@@ -2,6 +2,8 @@
 layout: page
 title: Research Projects
 permalink: /research/projects/
+description: "Ongoing projects of THInK Team at UC Irvine about chiplet design, heterogeneous integration, and fine-pitch interconnect platforms for AI and high-performance computing systems."
+
 ---
 # Research Projects
 

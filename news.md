@@ -2,6 +2,8 @@
 layout: page
 title: News
 permalink: /news/
+description: "News from THInK Team at UC Irvine about chiplet design, heterogeneous integration, and fine-pitch interconnect platforms for AI and high-performance computing systems."
+
 ---
 # News
 

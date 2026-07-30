@@ -2,6 +2,8 @@
 layout: home
 title: Publications
 permalink: /publications/
+description: "Publications of THInK Team about chiplet design, heterogeneous integration, and fine-pitch interconnect platforms for AI and high-performance computing systems."
+
 ---
 
 # Publications

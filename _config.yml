@@ -21,6 +21,11 @@ sass:
     sass_dir: _sass
 gems:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+twitter:
+  card: summary
+logo: assets/favicon.png 
 exclude:
   - node_modules
   - package.json

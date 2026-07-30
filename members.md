@@ -2,6 +2,8 @@
 layout: home
 title: Team Members
 permalink: /team/members/
+description: "Members and alumni of THInK Team at UC Irvine who work on chiplet design, heterogeneous integration, and fine-pitch interconnect platforms for AI and high-performance computing systems."
+
 
 hero:
   # image: /assets/img/site/hero_team.jpg TODO add team image
@@ -57,7 +59,7 @@ subnav:
 
 <h2 id="alumni">Alumni</h2>
 <ul class="alumni-list">
-{% assign sorted_alumni = site.alumni | sort: "start" | reverse %}
+{% assign sorted_alumni = site.alumni | sort: "end" | reverse %}
 {% for alum in sorted_alumni %}
   <li class="alumni-list-item">
     {% if alum.photo %}

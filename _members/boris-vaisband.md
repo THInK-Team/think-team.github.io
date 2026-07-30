@@ -10,12 +10,12 @@ role: pi # postdoc, phd, ms-students, undergraduate
 
 services:
   home: https://engineering.uci.edu/users/boris-vaisband
-  email: boris.vaisband@uci.edu
   #github: https://github.com/
   #twitter: https://twitter.com/
   scholar: https://scholar.google.com/citations?user=hE2xGEMAAAAJ&hl=en
   linked-in: https://www.linkedin.com/in/boris-vaisband
   
+email: boris.vaisband@uci.edu  
 start: 2024
 end:
 ---

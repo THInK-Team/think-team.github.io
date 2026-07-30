@@ -97,7 +97,7 @@ layout: page
         {% for member in news.members %}
           {% if member == id %}
             <div class="news-box-item">
-              <h3><b>{{ news.date | date: "%B %Y"}}</b>{  | }<a href="{{ news.url | relative_url }}">{{ news.title }}</a></h3>
+              <h3><b>{{ news.date | date: "%B %Y"}}</b>  | <a href="{{ news.url | relative_url }}">{{ news.title }}</a></h3>
             </div>
           {% endif %}
         {% endfor %}

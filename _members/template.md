@@ -6,7 +6,7 @@ photo: first-last.png # this file is relative to `assets/img/members/fullsize`
 alt: Explanation # the alt text that describes this photo for screen reader users. Mandatory if you use a photo.
 
 job_title: Visiting Scholar
-role: phd # postdoc, phd, ms-students, undergraduate
+role: phd # postdoc, phd, ms-students, undergrad
 
 services:
   #home: https://xxx.com

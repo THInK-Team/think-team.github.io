@@ -6,7 +6,7 @@ photo: rishi-theegala.png # this file is relative to `assets/img/members/fullsiz
 alt: Rishi Theegala.
 
 job_title: Undergraduate Student
-role: undergraduate
+role: undergrad
 
 services:
   #github: https://github.com/RishiTheegala

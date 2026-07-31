@@ -2,7 +2,12 @@
 title: First Last
 name_degree: First Last, BS MS PhD 
 
-photo: first-last.png # this file is relative to `assets/img/members/fullsize`
+photo: favicon.png # keep this favicon.png until you put your image. 
+# HOW TO ADD IMAGE: 
+# copy your image and paste under assets/img/members/fullsize/
+# rename it first-last.png 
+# replace photo: favicon.png with first-last.png
+
 alt: Explanation # the alt text that describes this photo for screen reader users. Mandatory if you use a photo.
 
 job_title: Visiting Scholar

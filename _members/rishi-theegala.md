@@ -1,8 +1,8 @@
 ---
 title: Rishi Theegala
-name_degree: Rishi Theegala, BS
+name_degree: Rishi Theegala
 
-photo: rishi-theegala.png # this file is relative to `assets/img/members/fullsize`
+photo: favicon.png # keep this favicon.png until you put your image
 alt: Rishi Theegala.
 
 job_title: Undergraduate Student

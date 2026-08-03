@@ -2,7 +2,7 @@
 title: Pankajan Thurairatnam
 name_degree: Pankajan Thurairatnam, BS 
 
-photo: pankajan-thurairatnam.png
+photo: pankajan-thurairatnam.jpeg
 
 alt: An image of a man standing # the alt text that describes this photo for screen reader users. Mandatory if you use a photo.
 

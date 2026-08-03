@@ -20,4 +20,4 @@ end:
 
 
 ---
-Fahim Shahriar is a Ph.D. student in the Department of Electrical Engineering and Computer Science at the University of California, Irvine. His research interests include neuromorphic computing using emerging non-volatile memory technologies, particularly charge trap transistors (CTTs), as well as hardware security, with a focus on physically unclonable functions (PUFs) and obfuscation.
+Fahim Shahriar is a Ph.D. student in the Department of Electrical Engineering and Computer Science at UC Irvine. His research interests include neuromorphic computing using emerging non-volatile memories, particularly charge trap transistors (CTTs), as well as hardware security, with a focus on physically unclonable functions (PUFs) and obfuscation.

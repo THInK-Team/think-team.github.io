@@ -64,7 +64,21 @@ $image-path: 'uswds/img';
     max-width: 100%;
   }
 }
+@media screen and (max-width: 950px) {
+  .usa-navbar {
+    height: auto;              /* override the theme's fixed 40px box */
+  }
 
+  .site-logo {
+    flex-wrap: wrap;           /* let the UCI logo drop to its own line if needed */
+    gap: 1rem;
+  }
+
+  .site-logo svg,
+  .site-logo img {
+    width: 200px;               /* smaller than the 280px desktop-adjacent default */
+  }
+}
 .usa-logo {
   a {
     color: $color-primary-darkest;

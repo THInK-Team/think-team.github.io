@@ -66,17 +66,23 @@ $image-path: 'uswds/img';
 }
 @media screen and (max-width: 950px) {
   .usa-navbar {
-    height: auto;              /* override the theme's fixed 40px box */
+    height: auto;
   }
 
   .site-logo {
-    flex-wrap: wrap;           /* let the UCI logo drop to its own line if needed */
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
     gap: 1rem;
   }
 
   .site-logo svg,
   .site-logo img {
-    width: 200px;               /* smaller than the 280px desktop-adjacent default */
+    width: auto;
+    height: auto;
+    max-width: 45%;   
   }
 }
 .usa-logo {
@@ -109,15 +115,13 @@ table.publications td, table.projects td, table.positions td {
   padding-left: 0.2em;
   vertical-align:top;
   h3, h4 {
-    margin-top: 0; // So top of title matches top of image.
+    margin-top: 0; 
   }
   img.thumb {
-    width: 220px; // Match image file width
+    width: 220px; 
     margin-right: 15px;
   }
   p {
-    // When the citation is parsed as markdown, it also gets a wrapping <p>,
-    // which we don't really need in this context.
     margin: 0;
   }
 }
@@ -269,7 +273,6 @@ ul.members-rows {
   word-break: break-word;
 }
 
-/* Citation-style grouped publications list */
 ol.publication-list {
   list-style: none;
   padding-left: 0;

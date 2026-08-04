@@ -64,29 +64,34 @@ $image-path: 'uswds/img';
     max-width: 100%;
   }
 }
+.usa-hero {
+  min-height: 380px;
+}
+
 @media screen and (max-width: 950px) {
-  .usa-navbar {
-    height: auto;              /* override the theme's fixed 40px box */
-  }
+  .usa-navbar { height: auto; }
 
   .site-logo {
-    flex-wrap: wrap;           /* let the UCI logo drop to its own line if needed */
+    flex-wrap: wrap;
     gap: 1rem;
   }
 
   .site-logo svg,
   .site-logo img {
-    width: 200px;               /* smaller than the 280px desktop-adjacent default */
+    width: 200px;
   }
-}
-.usa-logo {
-  a {
-    color: $color-primary-darkest;
+
+  .usa-hero {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: auto;
+    aspect-ratio: 3000 / 1567;
   }
 }
 
-.usa-hero {
-  min-height: 380px;
+.usa-logo {
+  a { color: $color-primary-darkest; }
 }
 
 .usa-footer-primary-section {

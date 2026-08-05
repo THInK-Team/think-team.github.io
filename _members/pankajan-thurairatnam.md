@@ -23,10 +23,3 @@ end:
 
 Pankajan is a PhD student in the Department of Electrical Engineering and Computer Science at the University of California, Irvine. His research interests include hardware acceleration, computer architecture, heterogeneous integration, ultra large scale integration (ULSI), and high performance computing.
 
-
-
-First Last is a XX in the Department of Electrical Engineering and Computer Science at University of California, Irvine.
-
-First received their PhD from the University of...
- 
-The goal of First's research is to...

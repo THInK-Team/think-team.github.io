@@ -16,6 +16,14 @@ services:
   linked-in: https://www.linkedin.com/in/boris-vaisband
   
 email: boris.vaisband@uci.edu  
+office: |
+  4416 Engineering Hall
+  EECS Department
+  University of California, Irvine
+  Irvine, CA 92697
+phone: "9498245991"
+phone_display: "(949) 824-5991"
+
 start: 2024
 end:
 ---

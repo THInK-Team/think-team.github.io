@@ -41,12 +41,12 @@ $image-path: 'uswds/img';
   transform-origin: center center;
 }
 
-.site-logo a:hover svg,
-.site-logo a:hover img {
+.site-logo a:hover svg {
   opacity: 0.9;
-  transform: translateY(-2px) scale(1.025);
+  transform: translateX(-7%) translateY(-2px) scale(1.025);
 }
 .site-logo a:hover img {
+  transform: translateY(-2px) scale(1.025);
   opacity: 0.8;
 }
 

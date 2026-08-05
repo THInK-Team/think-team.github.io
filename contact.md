@@ -17,10 +17,11 @@ If interested to join our team, please reach out to [us](mailto:thinkteam.uci@gm
 To stay up to date on the latest news about our work, [follow the THInK Team on LinkedIn](https://www.linkedin.com/company/thinkteam-uci){:target="_blank"}. 
 
 ## Office
-Samueli School of Engineering  \\
-Nhữ Department of Electrical Engineering and Computer Science \\
-University of California, Irvine  \\
-Irvine, CA 92697
+4416 Engineering Hall \\
+EECS Department \\
+University of California, Irvine \\
+Irvine, CA \\
+92697
 
 ## Tel.
 [(949) 824-5991](tel:9498245991)

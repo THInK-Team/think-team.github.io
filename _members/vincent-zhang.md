@@ -2,7 +2,7 @@
 title: Vincent Zhang
 name_degree: Vincent Zhang
 
-photo: vincent-zhang.JPG # this file is relative to `assets/img/members/fullsize`
+photo: vincent-zhang.jpg # this file is relative to `assets/img/members/fullsize`
 alt: A portrait of Vincent Zhang.
 
 job_title: PhD Student

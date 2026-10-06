@@ -765,6 +765,18 @@
   code: null
   link: 'https://ieeexplore.ieee.org/document/11088081'
   note: JETCAS Spotlight Paper.
+- category: conference
+  year: 2026
+  sort_date: '2026-01-01'
+  title: 'NoWLeak: Side-Channel Attacks on Network-on-Wafer'
+  authors: 'D. X. Ding, S. Swaroopa, F. Firouzi, B. Vaisband, and N. Sehatbakhsh'
+  venue: ''
+  details: null
+  doi: null
+  pdf: null
+  code: null
+  link: null
+  note: null
 - category: journal
   year: 2026
   sort_date: '2026-01-01'
@@ -807,7 +819,7 @@
   title: Multi-Range Communication for Chiplet-Based Systems
   authors: 'A. Delavari, A. Chandrasekaran, and B. Vaisband'
   venue: Proceedings of the ACM Great Lakes Symposium on VLSI (GLSVLSI)
-  details: June
+  details: 'pp. 724 - 729, June'
   doi: null
   pdf: null
   code: null

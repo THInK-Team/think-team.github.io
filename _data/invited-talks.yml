@@ -93,18 +93,18 @@
   link: null
 - year: 2025
   sort_date: '2025-03-01'
-  speaker: B. Vaisband (Panelist)
-  title: ''
-  venue: 'SEMI Workshop on Future of Computing: Sustainable AI Systems'
-  location: ''
-  date: March 2025
-  note: null
-  link: null
-- year: 2025
-  sort_date: '2025-03-01'
   speaker: B. Vaisband
   title: 'Chiplet-Based Integration: Scale-Down and Scale-Out'
   venue: ACM International Symposium on Physical Design (ISPD)
+  location: ''
+  date: March 2025
+  note: null
+  link: 'https://ispd.cc/slides/2025/protected/12_3_slides.pdf'
+- year: 2025
+  sort_date: '2025-03-01'
+  speaker: B. Vaisband (Panelist)
+  title: ''
+  venue: 'SEMI Workshop on Future of Computing: Sustainable AI Systems'
   location: ''
   date: March 2025
   note: null

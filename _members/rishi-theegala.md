@@ -2,7 +2,7 @@
 title: Rishi Theegala
 name_degree: Rishi Theegala
 
-photo: favicon.png # keep this favicon.png until you put your image
+photo: rishi-theegala.png # keep this favicon.png until you put your image
 alt: Rishi Theegala.
 
 job_title: Undergraduate Student

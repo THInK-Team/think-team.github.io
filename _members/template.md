@@ -11,7 +11,7 @@ photo: favicon.png # keep this favicon.png until you put your image.
 alt: Explanation # the alt text that describes this photo for screen reader users. Mandatory if you use a photo.
 
 job_title: Visiting Scholar
-role: phd # postdoc, phd, ms-students, undergrad
+role: phd # select applicable one (do not write differently): postdoc, phd, ms, undergrad
 
 services:
   #home: https://xxx.com

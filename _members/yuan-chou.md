@@ -11,7 +11,7 @@ photo: yuan-chou.png # keep this favicon.png until you put your image.
 alt: Add Yu-An Chou member profile # the alt text that describes this photo for screen reader users. Mandatory if you use a photo.
 
 job_title: Master Student
-role: ms-students # postdoc, phd, ms-students, undergrad
+role: ms # postdoc, phd, ms, undergrad
 
 services:
   #home: https://xxx.com

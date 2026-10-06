@@ -18,8 +18,8 @@ subnav:
   #  href: '#postdoc'
   - text: PhD Students
     href: '#phd'
-  #- text: MS Students TODO add if any
-  #  href: '#ms'
+  - text: MS Students TODO add if any
+    href: '#ms'
   - text: Undergraduate Students
     href: '#undergraduate'
   - text: Alumni

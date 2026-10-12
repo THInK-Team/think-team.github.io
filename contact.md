@@ -7,8 +7,14 @@ hero:
 description: "Reach out to Boris Vaisband or THInK Team at UC Irvine to contribute research on chiplet design, heterogeneous integration, and fine-pitch interconnect platforms for AI and high-performance computing systems."
 ---
 
-# {{page.title}}
-If interested to join our team, please reach out to [us](mailto:thinkteam.uci@gmail.com) by email with your CV, transcripts, list of publications, and research interests.
+# {{Join Us}}
+If you are interested in joining our team, please apply through the form below that matches your position.
+### Undergraduate Students
+Current UCI undergraduate students who want hands-on research experience with the THInK Team: 
+[Apply as an undergraduate student](https://docs.google.com/forms/d/e/1FAIpQLSdoQYxe4ZU6StuwQsDXnAJ_wDMO1skSQkaOBBvlH-Gr24fYeA/viewform){:target="_blank"}
+
+### Graduate Students
+For students interested in pursuing graduate research with the THInK Team:[Apply as a graduate student](https://docs.google.com/forms/d/e/1FAIpQLSfOqO_sUAXwWiQNgiNPyWYyUPlqJG56xJcoDryzdYBXU6gd0Q/viewform){:target="_blank"}
 
 ## Email
 [thinkteam.uci@gmail.com](mailto:thinkteam.uci@gmail.com)

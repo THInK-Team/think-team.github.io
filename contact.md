@@ -14,7 +14,7 @@ Current UCI undergraduate students who want hands-on research experience with th
 [Apply as an undergraduate student](https://docs.google.com/forms/d/e/1FAIpQLSdoQYxe4ZU6StuwQsDXnAJ_wDMO1skSQkaOBBvlH-Gr24fYeA/viewform){:target="_blank"}
 
 ### Graduate Students
-For students interested in pursuing graduate research with the THInK Team:[Apply as a graduate student](https://docs.google.com/forms/d/e/1FAIpQLSfOqO_sUAXwWiQNgiNPyWYyUPlqJG56xJcoDryzdYBXU6gd0Q/viewform){:target="_blank"}
+For students interested in pursuing graduate research with the THInK Team: [Apply as a graduate student](https://docs.google.com/forms/d/e/1FAIpQLSfOqO_sUAXwWiQNgiNPyWYyUPlqJG56xJcoDryzdYBXU6gd0Q/viewform){:target="_blank"}
 
 ## Email
 [thinkteam.uci@gmail.com](mailto:thinkteam.uci@gmail.com)

@@ -8,7 +8,12 @@ description: "Reach out to Boris Vaisband or THInK Team at UC Irvine to contribu
 ---
 
 ## Join Us
-If you are interested in joining our team, please apply through the form below that matches your position.: [Apply](https://docs.google.com/forms/d/e/1FAIpQLSfOqO_sUAXwWiQNgiNPyWYyUPlqJG56xJcoDryzdYBXU6gd0Q/viewform){:target="_blank"}
+If you are interested in joining our team, please apply through the form below that matches your position: 
+<a class="usa-button usa-button-big"
+   href="https://docs.google.com/forms/d/e/1FAIpQLSfOqO_sUAXwWiQNgiNPyWYyUPlqJG56xJcoDryzdYBXU6gd0Q/viewform"
+   target="_blank" rel="noopener noreferrer">
+  Apply Now<span class="usa-sr-only"> (opens in a new tab)</span>
+</a>
 
 ## Email
 [thinkteam.uci@gmail.com](mailto:thinkteam.uci@gmail.com)

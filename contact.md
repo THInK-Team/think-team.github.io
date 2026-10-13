@@ -8,13 +8,7 @@ description: "Reach out to Boris Vaisband or THInK Team at UC Irvine to contribu
 ---
 
 ## Join Us
-If you are interested in joining our team, please apply through the form below that matches your position.
-### Undergraduate Students
-Current UCI undergraduate students who want hands-on research experience with the THInK Team: 
-[Apply as an undergraduate student](https://docs.google.com/forms/d/e/1FAIpQLSdoQYxe4ZU6StuwQsDXnAJ_wDMO1skSQkaOBBvlH-Gr24fYeA/viewform){:target="_blank"}
-
-### Graduate Students
-For students interested in pursuing graduate research with the THInK Team: [Apply as a graduate student](https://docs.google.com/forms/d/e/1FAIpQLSfOqO_sUAXwWiQNgiNPyWYyUPlqJG56xJcoDryzdYBXU6gd0Q/viewform){:target="_blank"}
+If you are interested in joining our team, please apply through the form below that matches your position.: [Apply](https://docs.google.com/forms/d/e/1FAIpQLSfOqO_sUAXwWiQNgiNPyWYyUPlqJG56xJcoDryzdYBXU6gd0Q/viewform){:target="_blank"}
 
 ## Email
 [thinkteam.uci@gmail.com](mailto:thinkteam.uci@gmail.com)

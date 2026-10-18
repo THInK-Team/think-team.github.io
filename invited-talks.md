@@ -16,7 +16,7 @@ description: "Talks given by Boris Vaisband about chiplet design, heterogeneous 
 <ul class="invited-talks-list">
 {% for talk in sorted_talks %}
   <li>
-    {{ talk.speaker }}{% if talk.title != blank %}, “{{ talk.title }},”{% endif %}
+    {{ talk.speaker }},{% if talk.title != blank %} “{{ talk.title }},”{% endif %}
     {% if talk.venue != blank %} {{ talk.venue }}{% endif %}{% if talk.location != blank %}, {{ talk.location }}{% endif %}{% if talk.date != blank %} {{ talk.date }}{% endif %}.{% if talk.note != blank %} {{ talk.note }}{% endif %}
     {% if talk.link %}
       <a href="{{ talk.link }}">Link</a>

@@ -193,7 +193,7 @@
 - year: 2026
   sort_date: '2026-10-01'
   speaker: B. Vaisband
-  title: Designing Ultra-Large-Scale Chiplet-Based Systems for AI Applications
+  title: Near Real-Time Spike-Driven Synaptic Plasticity for CTT-Based Neuromorphic Systems
   venue: IEEE Cross-disciplinary Conference on Memory-Centric Computing (CCMCC)
   location: ''
   date: October 2026
@@ -202,7 +202,7 @@
 - year: 2026
   sort_date: '2026-10-01'
   speaker: B. Vaisband
-  title: Silicon Interconnect Fabric - A Chiplet-Based Advanced Packaging Platform for AI Applications
+  title: 'Silicon Interconnect Fabric: A Chiplet-Based Advanced Packaging Platform for AI Applications'
   venue: >-
     IEEE Silicon Lifecycle Management Workshop, co-located with the IEEE International Test
     Conference (ITC)

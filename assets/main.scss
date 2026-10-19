@@ -600,3 +600,22 @@ main#main-content.usa-section:not(.usa-content) {
   height: auto;
   max-height: 267px;
 }
+
+/* ---------- THInK navy button (matches UCI Samueli logo) ---------- */
+.usa-button.think-button,
+.usa-button.think-button:visited {
+  background-color: #19427d;   /* logo navy */
+  color: #fff;                 /* white text, also after the link is clicked */
+  font-family: inherit;        /* same font as the surrounding page text */
+}
+
+.usa-button.think-button:hover,
+.usa-button.think-button:focus {
+  background-color: #12305c;   /* about 25% darker: shows the button reacts */
+  color: #fff;
+}
+
+.usa-button.think-button:active {
+  background-color: #0c2142;   /* darkest: the moment it's being pressed */
+  color: #fff;
+}

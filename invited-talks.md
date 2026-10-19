@@ -15,13 +15,17 @@ description: "Talks given by Boris Vaisband about chiplet design, heterogeneous 
 
 <ul class="invited-talks-list">
 {% for talk in sorted_talks %}
-  <li>
-    {{ talk.speaker }}{% if talk.title != blank %}, “{{ talk.title }},”{% endif %}
-    {% if talk.venue != blank %} {{ talk.venue }}{% endif %}{% if talk.location != blank %}, {{ talk.location }}{% endif %}{% if talk.date != blank %} {{ talk.date }}{% endif %}.{% if talk.note != blank %} {{ talk.note }}{% endif %}
+{%- assign title = talk.title | strip -%}
+{%- assign venue = talk.venue | strip -%}
+{%- assign location = talk.location | strip -%}
+{%- assign date = talk.date | strip -%}
+{%- assign note = talk.note | strip -%}
+<li>
+    {{ talk.speaker }},{% if title.size > 0 %} “{{ title }},”{% endif %}{% if venue.size > 0 %} {{ venue }}{% endif %}{% if location.size > 0 %}, {{ location }}{% endif %}{% if date.size > 0 %}, {{ date }}{% endif %}.{% if note.size > 0 %} {{ note }}{% endif %}
     {% if talk.link %}
-      <a href="{{ talk.link }}">Link</a>
+<a href="{{ talk.link }}">Link</a>
     {% endif %}
-  </li>
+</li>
 {% endfor %}
 </ul>
 

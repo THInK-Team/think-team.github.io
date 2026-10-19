@@ -765,18 +765,6 @@
   code: null
   link: 'https://ieeexplore.ieee.org/document/11088081'
   note: JETCAS Spotlight Paper.
-- category: conference
-  year: 2026
-  sort_date: '2026-01-01'
-  title: 'NoWLeak: Side-Channel Attacks on Network-on-Wafer'
-  authors: 'D. X. Ding, S. Swaroopa, F. Firouzi, B. Vaisband, and N. Sehatbakhsh'
-  venue: ''
-  details: null
-  doi: null
-  pdf: null
-  code: null
-  link: null
-  note: null
 - category: journal
   year: 2026
   sort_date: '2026-01-01'
@@ -825,3 +813,15 @@
   code: null
   link: 'https://dl.acm.org/doi/10.1145/3787109.3815249'
   note: Best Poster Award.
+- category: conference
+  year: 2026
+  sort_date: '2026-11-08'
+  title: 'NoWLeak: Side-Channel Attacks on Network-on-Wafer'
+  authors: 'D. X. Ding, S. Swaroopa, F. Firouzi, B. Vaisband, and N. Sehatbakhsh'
+  venue: Proceedings of the IEEE/ACM International Conference on Computer-Aided Design (ICCAD)
+  details: November
+  doi: null
+  pdf: null
+  code: null
+  link: null
+  note: null

@@ -34,13 +34,13 @@ layout: home
   </div>
  <div class="socal-event-resources">
     <nav class="socal-event-actions socal-event-navigation" aria-label="Symposium pages">
-      {% assign sections = "Homepage|Agenda|Accommodation|Arrival|Parking|Speakers|Registration" | split: "|" %}
+      {% assign sections = "Homepage|Agenda|Accommodation|Arrival&Parking|Speakers|Registration" | split: "|" %}
       {% assign symposium_base = "/events/socal-chips-symposium-2027/" %}
 
       {% for section in sections %}
         {% assign section_url = symposium_base %}
         {% unless forloop.first %}
-          {% assign section_slug = section | slugify %}
+          {% assign section_slug = section | replace: "&", "-" | slugify %}
           {% assign section_url = symposium_base | append: section_slug | append: "/" %}
         {% endunless %}
 
@@ -48,19 +48,19 @@ layout: home
           <a class="usa-button think-button"
              href="https://www.accounting.uci.edu/ap/travel/resources/hotels.php"
              target="_blank" rel="noopener noreferrer">
-            {{ section }}
+            {{ section | escape }}
           </a>
         {% elsif section == "Registration" %}
           <a class="usa-button think-button"
              href="https://docs.google.com/forms/d/e/1FAIpQLSdQxNRfdMSfLcvrFxIqJOMNVyFa8xPqHl0HLX9y5orl61hf-Q/viewform?usp=dialog"
              target="_blank" rel="noopener noreferrer">
-            {{ section }}
+            {{ section | escape }}
           </a>
         {% else %}
           <a class="usa-button think-button"
              href="{{ section_url | relative_url }}"
              {% if page.url == section_url %}aria-current="page"{% endif %}>
-            {{ section }}
+            {{ section | escape }}
           </a>
         {% endif %}
       {% endfor %}
@@ -74,10 +74,7 @@ layout: home
       <p>
         For travel information, see
         <a class="socal-event-inline-link"
-           href="{{ '/events/socal-chips-symposium-2027/arrival/' | relative_url }}">arrival</a>
-        and
-        <a class="socal-event-inline-link"
-           href="{{ '/events/socal-chips-symposium-2027/parking/' | relative_url }}">parking</a>.
+           href="{{ '/events/socal-chips-symposium-2027/arrival-parking/' | relative_url }}">arrival and parking</a>.
       </p>
       <p>We look forward to seeing you at the symposium.</p>
     </div>    

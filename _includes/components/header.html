@@ -102,3 +102,51 @@
 </header>
 <div class="usa-overlay"></div>
 {% endif %}
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const button = document.querySelector('[aria-controls="nav-events"]');
+  if (!button) return;
+
+  const item = button.closest('li');
+  const desktopHover = window.matchMedia(
+    '(min-width: 951px) and (hover: hover) and (pointer: fine)'
+  );
+
+  function setExpanded(expanded) {
+    if ((button.getAttribute('aria-expanded') === 'true') !== expanded) {
+      button.click();
+    }
+  }
+
+  item.addEventListener('mouseenter', function () {
+    if (desktopHover.matches) setExpanded(true);
+  });
+
+  item.addEventListener('mouseleave', function () {
+    if (desktopHover.matches && !item.contains(document.activeElement)) {
+      setExpanded(false);
+    }
+  });
+
+  item.addEventListener('focusout', function (event) {
+    if (!item.contains(event.relatedTarget)) {
+      setExpanded(false);
+    }
+  });
+
+  item.addEventListener('keydown', function (event) {
+    if (event.key === 'Escape') {
+      setExpanded(false);
+      button.focus();
+    }
+  });
+
+  document.addEventListener('click', function (event) {
+    if (!item.contains(event.target)) setExpanded(false);
+  });
+
+  desktopHover.addEventListener('change', function () {
+    setExpanded(false);
+  });
+});
+</script>

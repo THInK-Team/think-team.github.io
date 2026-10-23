@@ -1,0 +1,99 @@
+---
+layout: home
+---
+
+<div class="socal-event">
+  <section class="socal-event-hero" aria-labelledby="socal-event-title">
+    <div class="socal-event-heading">
+      <h1 id="socal-event-title">SoCal CHIPS Symposium 2027</h1>
+      <p class="socal-event-subtitle">Heterogeneous Integration: From Package to System</p>
+      <div class="socal-event-details">
+        <p><time datetime="2027-01-27">📅 Wednesday, January 27, 2027</time></p>
+        <p>📍 The Cove @ UCI</p>
+      </div>
+    </div>
+  </section>
+  <div class="socal-event-logos" role="group" aria-label="Participating organizations">
+    <a class="socal-event-logo"
+       href="https://www.chips.ucla.edu"
+       target="_blank" rel="noopener noreferrer">
+      <img src="{{ '/assets/img/events/ucla-chips.png' | relative_url }}" alt="UCLA CHIPS">
+    </a>
+
+    <a class="socal-event-logo"
+       href="https://www.cecs.uci.edu"
+       target="_blank" rel="noopener noreferrer">
+      <img src="{{ '/assets/img/events/uci-cecs.png' | relative_url }}" alt="UCI CECS">
+    </a>
+
+    <a class="socal-event-logo"
+       href="https://think-team.github.io"
+       target="_blank" rel="noopener noreferrer">
+      <img src="{{ '/assets/img/events/think-team.jpg' | relative_url }}" alt="THInK Team">
+    </a>
+  </div>
+ <div class="socal-event-resources">
+    <nav class="socal-event-actions socal-event-navigation" aria-label="Symposium pages">
+      {% assign sections = "Homepage|Agenda|Accommodation|Arrival|Parking|Speakers|Registration" | split: "|" %}
+      {% assign symposium_base = "/events/socal-chips-symposium/" %}
+
+      {% for section in sections %}
+        {% assign section_url = symposium_base %}
+        {% unless forloop.first %}
+          {% assign section_slug = section | slugify %}
+          {% assign section_url = symposium_base | append: section_slug | append: "/" %}
+        {% endunless %}
+
+        {% if section == "Accommodation" %}
+          <a class="usa-button think-button"
+             href="https://www.accounting.uci.edu/ap/travel/resources/hotels.php"
+             target="_blank" rel="noopener noreferrer">
+            {{ section }}
+          </a>
+        {% elsif section == "Registration" %}
+          <a class="usa-button think-button"
+             href="https://docs.google.com/forms/d/e/1FAIpQLSdQxNRfdMSfLcvrFxIqJOMNVyFa8xPqHl0HLX9y5orl61hf-Q/viewform?usp=dialog"
+             target="_blank" rel="noopener noreferrer">
+            {{ section }}
+          </a>
+        {% else %}
+          <a class="usa-button think-button"
+             href="{{ section_url | relative_url }}"
+             {% if page.url == section_url %}aria-current="page"{% endif %}>
+            {{ section }}
+          </a>
+        {% endif %}
+      {% endfor %}
+    </nav>
+  </div>
+  <div class="socal-event-introduction" id="symposium-content">
+    {{ content }}
+  </div>
+    <section class="socal-event-info" aria-label="Arrival information and organizers">
+    <div class="socal-event-travel">
+      <p>
+        For travel information, see
+        <a class="socal-event-inline-link"
+           href="{{ '/events/socal-chips-symposium/arrival/' | relative_url }}">arrival</a>
+        and
+        <a class="socal-event-inline-link"
+           href="{{ '/events/socal-chips-symposium/parking/' | relative_url }}">parking</a>.
+      </p>
+      <p>We look forward to seeing you at the symposium.</p>
+    </div>    
+    <div class="socal-event-organizers">
+      <div>
+        <h3>Professor <a href="https://www.ee.ucla.edu/subramanian-s-iyer/">Subramanian Iyer</a></h3>
+        <p>Director of <a href="https://www.chips.ucla.edu">UCLA CHIPS</a></p>
+      </div>
+      <div>
+        <h3>Professor <a href="https://www.cecs.uci.edu/people/fadi-kurdahi/">Fadi Kurdahi</a></h3>
+        <p>Director of <a href="https://www.cecs.uci.edu">CECS</a></p>
+      </div>
+      <div>
+        <h3>Professor <a href="https://engineering.uci.edu/directory/vaisband_boris.php">Boris Vaisband</a></h3>
+        <p>Director of <a href="https://think-team.github.io">THInK Team</a></p>
+      </div>
+    </div>
+  </section>
+</div>

@@ -619,3 +619,405 @@ main#main-content.usa-section:not(.usa-content) {
   background-color: #0c2142;   /* darkest: the moment it's being pressed */
   color: #fff;
 }
+
+.socal-event {
+  margin-bottom: 4rem;
+  font-family: inherit;
+}
+
+.socal-event-hero {
+  display: flex;
+  align-items: center;
+  min-height: 30rem;
+  padding: 6rem 4rem 3rem;
+  background-color: #04223b;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(4, 34, 59, 0.98) 0%,
+      rgba(4, 34, 59, 0.88) 52%,
+      rgba(4, 34, 59, 0.2) 100%
+    ),
+    url("img/events/socal-chips-background.png");
+  background-size: cover, 100% auto;
+  background-position: center, center 55%;
+  background-repeat: no-repeat;
+  border-bottom: 0.4rem solid #f9c642;
+}
+
+.socal-event-heading {
+  max-width: 65rem;
+}
+
+.socal-event-hero h1 {
+  margin: 0;
+  color: #fff;
+  font-size: 4.4rem;
+  line-height: 1.15;
+}
+
+.socal-event-hero .socal-event-subtitle {
+  max-width: 40ch;
+  margin: 1.6rem 0 0;
+  color: #ffca4e;
+  font-size: 2.2rem;
+  line-height: 1.45;
+}
+
+.socal-event-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 3rem;
+  margin-top: 2.8rem;
+}
+
+.socal-event-details p {
+  margin: 0;
+  color: #fff;
+  font-size: 1.7rem;
+}
+
+.socal-event-resources {
+  padding: 2.8rem 0;
+}
+
+.socal-event-attendance {
+  margin: 0 0 2rem;
+  color: #323a45;
+}
+
+.socal-event-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+}
+
+.socal-event-actions .usa-button {
+  min-width: 13rem;
+  margin: 0;
+  font-family: inherit;
+}
+
+.socal-event-actions .socal-event-secondary {
+  background-color: #fff;
+  color: #19427d;
+  box-shadow: inset 0 0 0 2px #19427d;
+}
+
+.socal-event-actions .usa-button:disabled {
+  cursor: default;
+  opacity: 0.6;
+}
+
+.socal-event-actions .think-button:disabled:hover {
+  background-color: #19427d;
+  color: #fff;
+}
+
+.socal-event-actions .socal-event-secondary:disabled:hover {
+  background-color: #fff;
+  color: #19427d;
+}
+
+.socal-event-status {
+  margin: 1.6rem 0 0;
+  color: #5b616b;
+  font-size: 1.4rem;
+}
+
+@media screen and (max-width: 700px) {
+  .socal-event-hero {
+    min-height: 0;
+    padding: 3.2rem 2.4rem;
+    background-image: none;
+  }
+
+  .socal-event-hero h1 {
+    font-size: 3.2rem;
+  }
+
+  .socal-event-hero .socal-event-subtitle {
+    font-size: 1.9rem;
+  }
+
+  .socal-event-details {
+    flex-direction: column;
+  }
+
+  .socal-event-actions {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .socal-event-actions .usa-button {
+    min-width: 0;
+    width: 100%;
+  }
+}
+
+#nav-events a {
+  font-family: inherit;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.socal-event h1,
+.socal-event h2,
+.socal-event h3,
+.socal-event h4,
+.socal-event h5,
+.socal-event h6,
+.socal-event-subtitle,
+.socal-event button,
+.socal-event-inline-link {
+  font-family: inherit;
+}
+
+.socal-event-subtitle {
+  font-weight: 600;
+}
+
+.socal-event-logos {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: center;
+  gap: 2rem;
+  padding: 1.2rem 0;
+  border-bottom: 1px solid #e3e8ef;
+}
+
+.socal-event-logo {
+  display: block;
+  justify-self: center;
+  width: 29rem;
+  max-width: 100%;
+  min-width: 0;
+  text-decoration: none;
+}
+
+.socal-event-logo:first-child {
+  justify-self: start;
+}
+.socal-event-logo:nth-child(2) {
+  position: relative;
+  left: 1.5rem;
+}
+
+@media screen and (max-width: 700px) {
+  .socal-event-logo:nth-child(2) {
+    left: 0;
+  }
+}
+.socal-event-logo:last-child {
+  justify-self: end;
+}
+
+.socal-event-logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 0.22s ease, opacity 0.22s ease;
+}
+
+.socal-event-logo:hover img,
+.socal-event-logo:focus-visible img {
+  transform: translateY(-2px) scale(1.025);
+  opacity: 0.85;
+}
+
+.socal-event-logo:focus-visible {
+  outline: 2px solid #19427d;
+  outline-offset: 5px;
+}
+
+.socal-event-introduction {
+  max-width: 80rem;
+  margin: 3rem auto 0;
+}
+
+.socal-event-introduction > h2:first-child {
+  margin-top: 0;
+}
+
+.socal-event-introduction p {
+  max-width: none;
+  margin: 0 0 2rem;
+  line-height: 1.75;
+}
+
+.socal-event-introduction p:last-child {
+  margin-bottom: 0;
+}
+
+.socal-event-info {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 4rem;
+  margin-top: 4rem;
+  padding: 3.2rem 4rem;
+  background-color: #062b49;
+  border-top: 3px solid #29a6ce;
+  color: #fff;
+}
+
+.socal-event-travel p {
+  max-width: 42ch;
+  margin: 0 0 1.6rem;
+  line-height: 1.7;
+}
+
+.socal-event-travel p:last-child {
+  margin-bottom: 0;
+}
+
+.socal-event-inline-link,
+.socal-event-inline-link:visited {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: #ffca4e;
+  font-family: inherit;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.socal-event-inline-link[href]:hover {
+  background: none;
+  color: #fff;
+  text-decoration: none;
+}
+
+.socal-event-inline-link[href]:focus-visible {
+  outline: 2px solid #ffca4e;
+  outline-offset: 3px;
+}
+
+.socal-event-organizers {
+  display: grid;
+  gap: 1.6rem;
+  padding-left: 3rem;
+  border-left: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.socal-event-organizers h3 {
+  margin: 0;
+  color: #fff;
+  font-size: 1.7rem;
+  line-height: 1.4;
+}
+
+.socal-event-organizers p {
+  margin: 0.3rem 0 0;
+  color: inherit;
+  line-height: 1.5;
+}
+
+.socal-event-organizers a,
+.socal-event-organizers a:visited {
+  color: inherit;
+  font: inherit;
+  text-decoration: none;
+  transition: color 0.18s ease;
+}
+
+.socal-event-organizers a:hover,
+.socal-event-organizers a:focus-visible {
+  color: #ffca4e;
+  text-decoration: none;
+}
+
+.socal-event-organizers a:focus-visible {
+  outline: 2px solid #ffca4e;
+  outline-offset: 3px;
+}
+
+.socal-event-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.socal-event-navigation .usa-button {
+  flex: 1 1 auto;
+  min-width: 0;
+  width: auto;
+  margin: 0;
+  padding: 1.2rem 1.4rem;
+  border-radius: 0.6rem;
+  font-family: inherit;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.socal-event-navigation .usa-button[aria-current="page"] {
+  background-color: #0c2142;
+  color: #fff;
+  box-shadow: inset 0 -3px 0 #ffca4e;
+}
+
+@media screen and (max-width: 700px) {
+  .socal-event-logos {
+    grid-template-columns: 1fr;
+    gap: 1.6rem;
+    padding: 1.6rem 0;
+  }
+
+  .socal-event-logo:first-child,
+  .socal-event-logo:last-child {
+    justify-self: center;
+  }
+
+  .socal-event-introduction {
+    margin-top: 2.4rem;
+  }
+
+  .socal-event-info {
+    grid-template-columns: 1fr;
+    gap: 2.4rem;
+    padding: 2.4rem;
+  }
+
+  .socal-event-organizers {
+    padding-left: 0;
+    padding-top: 2.4rem;
+    border-left: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+  }
+
+  .socal-event-navigation {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .socal-event-navigation .usa-button {
+    width: 100%;
+    white-space: normal;
+  }
+}
+@media screen and (min-width: 951px) {
+  .usa-nav-primary button[aria-controls="nav-events"][aria-expanded="true"] {
+    background-color: #19427d;
+    color: #fff;
+  }
+
+  #nav-events {
+    background-color: #19427d;
+  }
+
+  #nav-events a {
+    color: #fff;
+  }
+
+  #nav-events a:hover,
+  #nav-events a:focus-visible {
+    background-color: #12305c;
+    color: #fff;
+  }
+  .usa-nav-primary button[aria-controls="nav-events"][aria-expanded="true"] span {
+    border-bottom-color: transparent;
+  }
+}

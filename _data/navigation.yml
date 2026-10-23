@@ -35,6 +35,11 @@ primary:
     href: /publications/
   - text: Invited Talks
     href: /invited-talks/
+  - text: Events
+    id: nav-events
+    links:
+      - text: SoCal CHIPS Symposium
+        href: /events/socal-chips-symposium/
   - text: Contact
     href: /contact/
 

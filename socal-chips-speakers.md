@@ -1,7 +1,7 @@
 ---
 layout: symposium
 title: Speakers | SoCal CHIPS Symposium
-permalink: /events/socal-chips-symposium/speakers/
+permalink: /events/socal-chips-symposium-2027/speakers/
 ---
 
 ## Speakers

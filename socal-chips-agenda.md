@@ -1,7 +1,7 @@
 ---
 layout: symposium
 title: Agenda | SoCal CHIPS Symposium
-permalink: /events/socal-chips-symposium/agenda/
+permalink: /events/socal-chips-symposium-2027/agenda/
 ---
 
 ## Agenda

@@ -1,7 +1,7 @@
 ---
 layout: symposium
 title: Accommodation | SoCal CHIPS Symposium
-permalink: /events/socal-chips-symposium/accommodation/
+permalink: /events/socal-chips-symposium-2027/accommodation/
 ---
 
 ## Accommodation

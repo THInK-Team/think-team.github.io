@@ -1,7 +1,7 @@
 ---
 layout: symposium
 title: Registration | SoCal CHIPS Symposium
-permalink: /events/socal-chips-symposium/registration/
+permalink: /events/socal-chips-symposium-2027/registration/
 ---
 
 ## Registration

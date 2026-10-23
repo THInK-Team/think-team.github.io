@@ -630,6 +630,7 @@ main#main-content.usa-section:not(.usa-content) {
   align-items: center;
   min-height: 30rem;
   padding: 6rem 4rem 3rem;
+  position: relative;
   background-color: #04223b;
   background-image:
     linear-gradient(
@@ -644,7 +645,28 @@ main#main-content.usa-section:not(.usa-content) {
   background-repeat: no-repeat;
   border-bottom: 0.4rem solid #f9c642;
 }
+.socal-event-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("img/events/socal-chips-wafer.png");
+  background-size: auto 125%;
+  background-position: left -15rem center;
+  background-repeat: no-repeat;
+  opacity: 0.25;
+  pointer-events: none;
+}
 
+.socal-event-heading {
+  position: relative;
+  z-index: 1;
+}
+
+@media screen and (max-width: 700px) {
+  .socal-event-hero::before {
+    display: none;
+  }
+}
 .socal-event-heading {
   max-width: 65rem;
 }
@@ -856,6 +878,17 @@ main#main-content.usa-section:not(.usa-content) {
   margin-top: 4rem;
   padding: 3.2rem 4rem;
   background-color: #062b49;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(6, 43, 73, 0.80) 0%,
+      rgba(6, 43, 73, 0.62) 50%,
+      rgba(6, 43, 73, 0.84) 100%
+    ),
+    url("img/events/socal-chips-wafer.png");
+  background-size: cover, auto 140%;
+  background-position: center, left 1rem center;
+  background-repeat: no-repeat;
   border-top: 3px solid #29a6ce;
   color: #fff;
 }

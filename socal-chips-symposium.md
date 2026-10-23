@@ -1,7 +1,7 @@
 ---
 layout: symposium
 title: SoCal CHIPS Symposium 
-permalink: /events/socal-chips-symposium/
+permalink: /events/socal-chips-symposium-2027/
 description: "SoCal CHIPS Symposium on January 27, 2027, at The Cove at UCI."
 ---
 

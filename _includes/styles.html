@@ -2,7 +2,7 @@
 {% assign _styles = '' | split: '' | push: site.styles | push: layout.styles | push: page.styles | uniq %}
 {% for _list in _styles %}{% for _style in _list %}
 <link rel="stylesheet"
-    href="{{ _style.href | default: _style | relative_url }}?v={{ site.time | date: '%s' }}"
+  href="{{ _style.href | default: _style | relative_url }}?v={{ site.time | date: '%s' }}"
   media="{{ _style.media | default: 'screen' }}">
 {% endfor %}{% endfor %}
 
